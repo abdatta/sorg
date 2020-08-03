@@ -72,7 +72,7 @@ speeds mean that FFmpeg finishes far more quickly.
 
 ### Audio and Dolby Digital Plus (#audio)
 
-`-c:a eac3` tells FFmpeg to re-encode video using Dolby
+`-c:a eac3` tells FFmpeg to re-encode audio using Dolby
 Digital Plus. You might wonder why I would ever choose that
 over AAC, and the answer is simple: Apple.
 
@@ -97,7 +97,7 @@ have FFmpeg downmix to stereo AAC instead:
 ### The `fast` preset
 
 The `libx265` `preset` setting accepts the wide array of
-adjectives `ultrafast`, `superfast`, `veryfaster`,
+adjectives `ultrafast`, `superfast`, `veryfast`,
 `faster`, `fast`, `medium`, `slow`, `slower`, `veryslow`,
 and `placebo`. Specifying a faster setting means that
 encoding speed will be preferred over file size. Both ends
